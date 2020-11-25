@@ -1,0 +1,36 @@
+
+	---- TODO ----
+
+give player exp upon mob kill
+mob movement behaviour
+mob walking animation
+camera panning + game map bounds / shape
+skills bar to show skill details when mouse over
+player HP bar to always be behind player
+add icons to combat stats bar
+exp gain, progression, level
+player walking animation
+hp bar to turn red before tweening
+
+	---- DONE ----
+
+Date		Task
+
+24/11/20	basic heal formula using skill's power, caster's matk & mdef
+24/11/20	display heal after skill cast
+24/11/20	basic damage formula using skill's power, attacker & defender stat
+24/11/20	display damage after skill cast
+24/11/20	combat stats bar
+21/11/20	delay respawn of mobs when kill
+21/11/20	respawn mobs when kill, until hit mob cap
+21/11/20	MP fountain
+21/11/20	HP fountain
+20/11/20	skills bar to show cooldown
+20/11/20	skills bar
+20/11/20	decouple hp/mp bar from Player class, use PlayerHPBar and PlayerMPBar
+20/11/20	skill with self-target
+19/11/20	skill with unit-target
+18/11/20	attach / detach skill:render using StateStack
+18/11/20	implement and bridge StateStack
+16/11/20	exp bar
+16/11/20	love keyboard / mouse keysPressed, wasPressed global access
